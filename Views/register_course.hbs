@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="registrationStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course registration Page</title>
+</head>
+<body>
+    <h1>Teacher's Course Registration Form</h1>
+    <div class="container">
+    <form action="/register" method="POST">
+        <div id="NameInput">
+            <label for="Name">Name of Instructor:</label>
+            <input type="text" id="Name" placeholder="Please enter your name" name="Name" required>
+        </div>
+        <div id="EmailInput">
+            <label for="Email">E-mail of Instructor:</label>
+            <input type="email" id="Email" placeholder="Please enter your email" name="Email" required>
+        </div>
+        <div id="CourseTitleInput"> 
+            <label for="CourseTitle">Course or Topic title:</label>
+            <input type="text" id="CourseTitle" placeholder="Enter the name of Course Title" name="CourseTitle" required>
+        </div>
+        <div id="KeywordsInput">
+            <label for="Keywords">Enter Keywords for the course:</label>
+            <input type="text" id="Keywords" placeholder="Enter keywords" name="Keywords" required>
+            <div class="alert" style="font-size: 15px; color:brown; margin-left:10px;">This will be used to find your course in our database</div>
+        </div>
+        <div id="PreferencesInput">
+            <label>Enter your Preferences:</label>
+            <br>
+            <input type="radio" id="online" name="Prefer" value="online">
+            <label for="online">Online</label>
+            <br>
+            <input type="radio" id="offline" name="Prefer" value="offline">
+            <label for="offline">Offline</label>
+            <br>
+            <input type="radio" id="any" name="Prefer" value="any">
+            <label for="any">Fine with any mode</label>
+        </div>
+        <div id="PlatformsInput">
+            <label>Platforms you can use:</label>
+            <ul style="list-style: none;">
+                <li><label for="zoom">zoom</label>
+                <input type="checkbox" id="zoom" name="zoom"></li>
+                <li><label for="google_meet">Google Meet</label>
+                <input type="checkbox" id="google_meet" name="google_meet"></li>
+                <li><label for="others">Others</label>
+                <input type="checkbox" id="others" name="others"></li>
+            </ul>
+        </div>
+        <div id="PriceInput">
+            <label for="Price">Enter your initial quoted price</label>
+            <input type="Number" placeholder="Enter intitial price" name="price" required>
+        </div>
+        <button type="submit" value="Register">Register this course!</button>
+    </form>
+    </div>
+    
+</body>
+</html>

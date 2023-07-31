@@ -1,0 +1,171 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline black;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,rgba(9,9,121,0.7738445720084909), rgba(0,212,255,1));
+}
+.container{
+    margin-top: 50px ;
+    width: 70%;
+    margin-left: 10%;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.container form label{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#NameInput{
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    width: 75%;
+    background-color: rgba(245, 176, 66, 0.5);
+}
+#NameInput input{
+    width: 60%;
+    margin-left: 10px;
+    height: 20px;
+    padding: 5px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    border-bottom: 3px solid whitesmoke;
+}
+::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+#EmailInput{
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    width: 75%;
+    background-color: rgba(161, 66, 245, 0.5);
+
+}
+#EmailInput input{
+    width: 60%;
+    margin-left: 10px;
+    height: 20px;
+    padding: 5px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    border-bottom: 3px solid whitesmoke;
+}
+#CourseTitleInput{
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    width: 75%;
+    background-color: rgba(245, 66, 167, 0.5);
+
+}
+#CourseTitleInput input{
+    width: 60%;
+    margin-left: 10px;
+    height: 20px;
+    padding: 5px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    border-bottom: 3px solid whitesmoke;
+}
+#KeywordsInput{
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    width: 75%;
+    background-color: rgba(111, 245, 66, 0.5);
+
+}
+#KeywordsInput input{
+    width: 90%;
+    margin-left: 10px;
+    height: 20px;
+    padding: 15px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    border-bottom: 3px solid whitesmoke;
+}
+#PreferencesInput{
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    width: 75%;
+    background-color: rgba(245, 90, 66, 0.5);
+}
+
+#PlatformsInput{
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    width: 75%;
+    background-color: rgba(72, 66, 245, 0.5);
+}
+
+#PriceInput{
+    padding: 20px;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    width: 75%;
+    background-color: rgba(242, 66, 245, 0.5);
+
+}
+#PriceInput input{
+    width: 50%;
+    margin-left: 10px;
+    height: 20px;
+    padding: 5px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    border-bottom: 3px solid whitesmoke;
+}
+
+form button{
+    margin-left: 30%;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: teal;
+    color: black;
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+form button:active{
+    background-color: purple;
+    color: whitesmoke;    
+}
